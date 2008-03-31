@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error-list domain="org.gnome.evolution.proxy-login">
+<error id="invalid-user" type="error">
+<_primary>Invalid user</_primary>
+<_secondary>
+Proxy login as &quot;{0}&quot; was unsuccessful. Please check Email Id and try again. 
+</_secondary>
+</error>
+
+<error id="already-loggedin" type="error">
+	<_primary>Account Already Exists</_primary>
+	<_secondary>Account &quot;{0}&quot; already exists. Please check your folder tree.</_secondary>
+</error>
+
+</error-list>
