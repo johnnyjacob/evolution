@@ -1,0 +1,16 @@
+<Root>
+  <commands>
+    <cmd name="Convert" _label="Hello Python"
+      _tip="Python Plugin Loader tests"
+      />
+  </commands>
+
+  <menu>
+    <placeholder name="MessagePlaceholder">	  
+      <submenu name="Message">
+	  <separator f="" name="emaillist5"/>
+	  <menuitem name="Convert" verb=""/>
+      </submenu>
+   </placeholder>
+  </menu>
+</Root>

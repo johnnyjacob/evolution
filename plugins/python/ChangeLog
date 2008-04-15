@@ -1,0 +1,4 @@
+2008-04-01  Johnny Jacob  <jjohnny@novell.com>
+
+	* Camel.cs: Type cast. Fixes compile error.
+
