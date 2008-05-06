@@ -2,9 +2,9 @@
 headers
 #include <Python.h>               
 #include "pygobject.h"
-#include "e-plugin.h"
+#include "../../../e-util/e-plugin.h"
 %%
-modulename trayicon                     
+modulename eplugin                     
 %%
 import gobject.GObject as PyGObject_Type
 %%
