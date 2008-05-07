@@ -3,6 +3,8 @@ headers
 #include <Python.h>               
 #include "pygobject.h"
 #include "../../../e-util/e-plugin.h"
+#include <glib.h>
+#include <gslist.h>
 %%
 modulename eplugin                     
 %%
