@@ -500,7 +500,13 @@ emfb_init(GObject *o)
 		g_signal_connect(emfb->search, "search_cleared", G_CALLBACK(emfb_search_search_cleared), NULL);
 
 		gtk_box_pack_start((GtkBox *)emfb, (GtkWidget *)emfb->search, FALSE, TRUE, 0);
+		{
 
+			GtkButton *test_button = gtk_button_new_with_label ("FooBar Bigger label");
+			gtk_box_pack_start((GtkBox *)emfb, (GtkWidget *)test_button, FALSE, TRUE, 0);
+
+			
+		}
 		gconf = mail_config_get_gconf_client ();
 		emfb->priv->labels_change_notify_id = gconf_client_notify_add (gconf, E_UTIL_LABELS_GCONF_KEY, gconf_labels_changed, emfb, NULL, NULL);
 	}
