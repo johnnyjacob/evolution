@@ -55,7 +55,6 @@ typedef struct {
 	GtkWidget   *clue_add;
 	GtkWidget   *clue_edit;
 	GtkWidget   *clue_remove;
-	GtkWidget   *clue_container;
 	GtkListStore *store;
 } UIData;
 
@@ -504,7 +503,6 @@ e_plugin_lib_get_configure_widget (EPlugin *epl)
 	}
 
 	/* Add the list here */
-	ui->clue_container = glade_xml_get_widget (ui->xml, "clue_container");
 
 	hbox = gtk_vbox_new (FALSE, 0);
 
