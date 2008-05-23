@@ -7,10 +7,12 @@
     <property name="title">window1</property>
     <child>
       <widget class="GtkVBox" id="reminder_configuration_box">
+        <property name="width_request">385</property>
+        <property name="height_request">189</property>
         <property name="visible">True</property>
         <property name="spacing">5</property>
         <child>
-          <widget class="GtkHBox" id="hbox1">
+          <widget class="GtkHBox" id="clue_container">
             <property name="visible">True</property>
             <property name="spacing">6</property>
             <child>
